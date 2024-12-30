@@ -1,0 +1,997 @@
+# depslib dependency file v1.0
+1711629566 source:c:\c++_code\opengl\tutorial\learn_opengl\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"glad.h"
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1711630493 c:\c++_code\opengl\tutorial\learn_opengl\glad.h
+	"khrplatform.h"
+
+1711623011 c:\c++_code\opengl\tutorial\learn_opengl\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1734957270 source:c:\c++_code\opengl\tutorial\learn_opengl\main.cpp
+	<SDL/SDL.h>
+	"glad.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"shader_m.h"
+	"camera.h"
+	"animator.h"
+	"model_animation.h"
+	"filesystem.h"
+	<iostream>
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 c:\program files\codeblocks\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\close_code.h
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files\codeblocks\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483566163 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\_fixes.hpp
+	<cmath>
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\precision.hpp
+	"setup.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\_swizzle.hpp
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\_swizzle_func.hpp
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec2.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec3.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec4_simd.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat2x3.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat2x4.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat3x2.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat3x4.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat4x2.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat4x3.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483566163 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_mat4x4_simd.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_vec1.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483566163 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_vector_relational_simd.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483566164 c:\c++_code\opengl\tutorial\learn_opengl\glm\simd\exponential.h
+	"platform.h"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\simd\common.h
+	"platform.h"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483566164 c:\c++_code\opengl\tutorial\learn_opengl\glm\simd\geometric.h
+	"common.h"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\simd\matrix.h
+	"geometric.h"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483566163 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_trigonometric_simd.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\common.hpp
+	"detail/func_common.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\type_half.inl
+
+1483566163 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_packing_simd.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483566164 c:\c++_code\opengl\tutorial\learn_opengl\glm\simd\integer.h
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtc\constants.inl
+	<limits>
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtc\quaternion_simd.inl
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtc\type_ptr.inl
+	<cstring>
+
+1731316913 c:\c++_code\opengl\tutorial\learn_opengl\shader.h
+	"glad.h"
+	"glm/glm.hpp"
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1713344055 c:\c++_code\opengl\tutorial\learn_opengl\filesystem.h
+	<string>
+	<cstdlib>
+	"root_directory.h"
+
+1713346296 c:\c++_code\opengl\tutorial\learn_opengl\root_directory.h
+
+1714718827 c:\c++_code\opengl\tutorial\learn_opengl\shader_m.h
+	"glad.h"
+	"glm/glm.hpp"
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1731320523 c:\c++_code\opengl\tutorial\learn_opengl\camera.h
+	"glad.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+
+1734954854 c:\c++_code\opengl\tutorial\learn_opengl\animator.h
+	"glm/glm.hpp"
+	<map>
+	<vector>
+	"assimp/scene.h"
+	"assimp/Importer.hpp"
+	"animation.h"
+	"bone.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\scene.h
+	"types.h"
+	"texture.h"
+	"mesh.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+	"anim.h"
+	"metadata.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\types.h
+	<sys/types.h>
+	<memory.h>
+	<math.h>
+	<stddef.h>
+	<string.h>
+	<limits.h>
+	"defs.h"
+	"vector3.h"
+	"vector2.h"
+	"color4.h"
+	"matrix3x3.h"
+	"matrix4x4.h"
+	"quaternion.h"
+	<cstring>
+	<new>
+	<string>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"vector2.inl"
+	"vector3.inl"
+	"color4.inl"
+	"quaternion.inl"
+	"matrix3x3.inl"
+	"matrix4x4.inl"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\defs.h
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\vector3.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\compiler\pushpack1.h
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\compiler\poppack1.h
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\vector2.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\color4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\matrix3x3.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\matrix4x4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\quaternion.h
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\vector2.inl
+	"vector2.h"
+	<cmath>
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\vector3.inl
+	"vector3.h"
+	<cmath>
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\color4.inl
+	"color4.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\quaternion.inl
+	"quaternion.h"
+	<cmath>
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\matrix3x3.inl
+	"matrix3x3.h"
+	"matrix4x4.h"
+	<algorithm>
+	<cmath>
+	<limits>
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\matrix4x4.inl
+	"matrix4x4.h"
+	"matrix3x3.h"
+	"quaternion.h"
+	<algorithm>
+	<limits>
+	<cmath>
+	<math.h>
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\texture.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\mesh.h
+	"types.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\light.h
+	"types.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\camera.h
+	"types.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\material.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"material.inl"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\material.inl
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\anim.h
+	"types.h"
+	"quaternion.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\metadata.h
+	<assert.h>
+	"Compiler/pstdint.h"
+	<stdint.h>
+	<string>
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\compiler\pstdint.h
+	<stddef.h>
+	<limits.h>
+	<signal.h>
+	<stdint.h>
+	<wchar.h>
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\importer.hpp
+	"types.h"
+	"config.h"
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\config.h
+
+1734884498 c:\c++_code\opengl\tutorial\learn_opengl\animation.h
+	<vector>
+	<map>
+	"glm/glm.hpp"
+	"assimp/scene.h"
+	"bone.h"
+	<functional>
+	"animdata.h"
+	"model_animation.h"
+
+1734864630 c:\c++_code\opengl\tutorial\learn_opengl\bone.h
+	<vector>
+	"assimp/scene.h"
+	<list>
+	"glm/glm.hpp"
+	"glm/gtx/quaternion.hpp"
+	"assimp_glm_helpers.h"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtx\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtx\norm.hpp
+	"../detail/func_geometric.hpp"
+	"../gtx/quaternion.hpp"
+	"norm.inl"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtx\norm.inl
+	"../detail/precision.hpp"
+
+1502884118 c:\c++_code\opengl\tutorial\learn_opengl\glm\gtx\quaternion.inl
+	<limits>
+	"../gtc/constants.hpp"
+
+1734860252 c:\c++_code\opengl\tutorial\learn_opengl\assimp_glm_helpers.h
+	"assimp/quaternion.h"
+	"assimp/vector3.h"
+	"assimp/matrix4x4.h"
+	"glm/glm.hpp"
+	"glm/gtc/quaternion.hpp"
+
+1734860170 c:\c++_code\opengl\tutorial\learn_opengl\animdata.h
+	"glm/glm.hpp"
+
+1734868618 c:\c++_code\opengl\tutorial\learn_opengl\model_animation.h
+	"glad.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"stb_image.h"
+	"assimp/Importer.hpp"
+	"assimp/scene.h"
+	"assimp/postprocess.h"
+	"mesh_animation.h"
+	"shader.h"
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<map>
+	<vector>
+	"assimp_glm_helpers.h"
+	"animdata.h"
+
+1713341653 c:\c++_code\opengl\tutorial\learn_opengl\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1402761609 c:\c++_code\opengl\tutorial\learn_opengl\assimp\postprocess.h
+	"types.h"
+
+1734861169 c:\c++_code\opengl\tutorial\learn_opengl\mesh_animation.h
+	"glad.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"shader.h"
+	<string>
+	<vector>
+

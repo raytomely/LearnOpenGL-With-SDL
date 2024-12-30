@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="learn_opengl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/learn_opengl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="opengl32" />
+					<Add library="C:/c++_code/OpenGL/tutorial/learn_opengl/libassimp.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/SDL-1.2.15/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/Program Files/CodeBlocks/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="animation.h" />
+		<Unit filename="animator.h" />
+		<Unit filename="animdata.h" />
+		<Unit filename="assimp_glm_helpers.h" />
+		<Unit filename="bone.h" />
+		<Unit filename="camera.h" />
+		<Unit filename="filesystem.h" />
+		<Unit filename="glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glad.h" />
+		<Unit filename="khrplatform.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mesh_animation.h" />
+		<Unit filename="model.h" />
+		<Unit filename="model_animation.h" />
+		<Unit filename="root_directory.h" />
+		<Unit filename="shader.h" />
+		<Unit filename="shader_m.h" />
+		<Unit filename="shader_s.h" />
+		<Unit filename="stb_image.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
