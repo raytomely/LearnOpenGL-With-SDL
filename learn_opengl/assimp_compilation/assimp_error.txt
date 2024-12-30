@@ -1,0 +1,75 @@
+
+assimp 32bit:
+https://stackoverflow.com/questions/63257921/how-to-build-assimp-library-in-32-bit-for-c
+https://openclassrooms.com/forum/sujet/probleme-assimp#message-94056817
+
+assimp sourceforge:  -->  version 3.1.1 - size= only 6 MB - (source only) no test models
+https://assimp.sourceforge.net/main_downloads.html
+
+why assimp need direct 3d:  -->  You can also run the cmake-script with tools-support disabled. Then the DX-SDK is not required and the issue will not occurr any more: assimp_root_folder>cmake CMakeLists.txt -DASSIMP_BUILD_ASSIMP_TOOLS=OFF
+https://stackoverflow.com/questions/53969224/assimp-compile-error-directx-d3dx9-library-not-found-although-directx-is-instal
+
+PKG_CONFIG_EXECUTABLE-NOTFOUND:
+https://stackoverflow.com/questions/33380020/errorcould-not-find-pkgconfig-missing-pkg-config-executable
+https://stackoverflow.com/questions/1710922/how-to-install-pkg-config-in-windows
+
+zlib dev windows:
+https://gnuwin32.sourceforge.net/packages/zlib.htm
+
+
+assimp dll size is huge:  -->  Assimp uses C++ STD and STL features and the MSVC implementations of the Standard Library and STL are notoriously known for producing huge static libraries. /  use -Os in CXX_FLAGS and Disable Assimp testing, export. 
+https://stackoverflow.com/questions/68391530/assimp-cmake-build-windows-big-lib-files
+https://github.com/assimp/assimp/issues/2276
+https://github.com/android/ndk/issues/243
+
+-g0 compile flag:
+https://www.hpc2n.umu.se/documentation/compilers/flags
+
+gcc linker flags:
+https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html
+
+.dll.a:
+https://stackoverflow.com/questions/13998575/mingw-creating-dll-a-files-what-type-of-library-files-are-those
+https://stackoverflow.com/questions/185326/whats-a-dll-a-file
+
+dll.a vs.lib:
+https://stackoverflow.com/questions/55610732/cmake-dll-vs-dll-a-vs-a-what-library-should-i-specify-in-the-cmake-configur
+
+dll.a huge size import library:  -->  As you're adding exports, the import library grows faster than the module.
+https://stackoverflow.com/questions/71771653/why-is-the-import-library-lib-bigger-than-the-dll
+
+strip dll symbols:  -->  it should strip it if you have -s option enabled.
+https://stackoverflow.com/questions/19192412/strip-out-symbols-from-dll
+
+-s strip dll:  -->  Stripping a cgywin .a library makes it invalid.  You have to link the library into an executable and then strip the executable. 
+https://sourceware.org/legacy-ml/cygwin/1998-04/msg00012.html
+
+mingw generate larger dll than msvc:  -->  mingw dll has more sections
+https://stackoverflow.com/questions/18097255/mingw-binary-3x-as-big-as-msvc-binary
+https://sourceforge.net/p/mingw/mailman/mingw-users/thread/39C91A59.15208.1679C04@localhost/
+https://gcc.gnu.org/bugzilla/show_bug.cgi?id=43601
+
+assimp miku miku dance:
+https://github.com/assimp/assimp/issues/644
+
+what does import library contain:
+https://stackoverflow.com/questions/3573475/how-does-the-import-library-work-detailst
+https://stackoverflow.com/questions/6402586/know-if-lib-is-static-or-import
+https://www.codeproject.com/Articles/1253835/The-Structure-of-import-Library-File-lib
+
+DLLMain function:
+https://learn.microsoft.com/en-us/windows/win32/dlls/dllmain
+
+remove DLLMain function:
+https://stackoverflow.com/questions/10610649/is-it-possible-to-have-a-dll-without-a-dllmain-function
+https://github.com/patriksletmo/Dota2Translator/issues/16
+
+DLLMain change name:
+https://stackoverflow.com/questions/62985140/should-dllmain-be-named-another-name
+https://learn.microsoft.com/en-us/cpp/build/reference/entry-entry-point-symbol?view=msvc-170&viewFallbackFrom=vs-2019
+
+-------------------------------------------
+
+CMAKE_CXX_FLAGS = -Os -DNDEBUG -s
+
+
