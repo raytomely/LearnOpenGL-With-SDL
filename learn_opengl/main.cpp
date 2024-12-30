@@ -71,9 +71,9 @@ int main(int argc, char *argv[])
 
 	// load models
 	// -----------
-	Model ourModel(FileSystem::getPath("Skeleton/f010.fbx"));
-	Animation danceAnimation(FileSystem::getPath("Skeleton/f010.fbx"),&ourModel);
-	load_all_animations(&animations, FileSystem::getPath("Skeleton/f010.fbx"), &ourModel);
+	Model ourModel(FileSystem::getPath("resources/Skeleton/f010.fbx"));
+	Animation danceAnimation(FileSystem::getPath("resources/Skeleton/f010.fbx"),&ourModel);
+	load_all_animations(&animations, FileSystem::getPath("resources/Skeleton/f010.fbx"), &ourModel);
     //Model ourModel(FileSystem::getPath("animated_model/model.dae"));
 	//Animation danceAnimation(FileSystem::getPath("animated_model/model.dae"),&ourModel);
 	Animator animator(&danceAnimation);
