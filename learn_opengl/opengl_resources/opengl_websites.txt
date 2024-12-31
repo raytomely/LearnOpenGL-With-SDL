@@ -1,0 +1,26 @@
+OpenGL Programming Guide:
+The Official Guide to Learning OpenGL, Version 1.1:
+https://www.glprogramming.com/red/
+
+OpenGL Reference Manual:
+https://www.glprogramming.com/blue/
+
+https://learnopengl.com/
+
+https://www.learnopengles.com/
+
+https://ogldev.org/
+
+from searching "glEnableVertexAttribArray":
+https://stackoverflow.com/questions/7000078/what-exactly-does-glenablevertexattribarray-do
+https://nicolbolas.github.io/oldtut/index.html
+
+https://www.youtube.com/@3DProgramming/videos
+
+---------------------------------------------
+books:
+
+OpenGL Programming Guide 7th Edition
+OpenGL Shading Language 3rd Edition
+OpenGL SuperBible Comprehensive Tutorial and Reference 5th Edition
+3-D Computer Graphics: A Mathematical Introduction with OpenGL
